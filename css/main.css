@@ -1,0 +1,69 @@
+/*La clase line perteneciente al h2, le asignamos
+lo siguiente: Tipo de letra, color.*/
+.line {
+  font-family: 'Acme', sans-serif;
+  color: grey;
+  border-bottom-width:90px solid black;
+  /*border-bottom-color: black;*/
+}
+/*Indicamos que los elementos de la lista seran,un bloque en linea*/
+li{
+  display: inline-block;
+  position: relative;
+}
+/*linkeamos las imagenes, dandole tamaño, un margen y elbox sizing*/
+.image {
+  background-image: url('../assets/images/image1.jpg');
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 70px;
+  box-sizing: border-box;
+}
+
+.image2 {
+  background: url('../assets/images/2.jpg');
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 70px;
+  box-sizing: border-box;
+}
+
+.image3 {
+  background: url('../assets/images/3.jpg')-40px 0.5px;
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 80px;
+  box-sizing: border-box;
+}
+
+.image4 {
+  background: url('../assets/images/4.jpg');
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 71px;
+  box-sizing: border-box;
+}
+
+.image5 {
+  background: url('../assets/images/5.jpg');
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 70px;
+  box-sizing: border-box;
+}
+
+.image6 {
+  background: url('../assets/images/6.jpg');
+  width: 205px;
+  height: 240px;
+  margin: 30px 60px 30px 70px;
+  box-sizing: border-box;
+}
+/*asignamos al parrafo color de letra, la posición absoluta junto con un top y rigth*/
+p {
+  color: white;
+  position: absolute;
+  top: 80%;
+  right: 10px;
+}
+
